@@ -13996,8 +13996,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1.-Research-idea">1. Research idea<a class="anchor-link" href="#1.-Research-idea">&#182;</a></h2><p><em>Restrictive scalar particles</em> are kind of expressions that are sensitive to focus placement. These particles <em>assosiate</em> with an element <em>in focus</em> (prosodically marked element) and make an utterance implicate that (a) the element they assosiate with is <em>the lowest element on some semantic scale</em>, (b) the stronger alternatives of the utterance (i. e. containing elements higher on the abovementioned semantic scale) are false.</p>
-<p>English language has (at least) three particles of this kind coexisting within a language. However, as one can notice they all have somewhat different distributional and semantic properties.</p>
+<h2 id="1.-Research-idea">1. Research idea<a class="anchor-link" href="#1.-Research-idea">&#182;</a></h2><p><em>Restrictive scalar particles</em> are kind of expressions that are sensitive to focus placement. These particles <em>assosiate</em> with an element <em>in focus</em> (prosodically marked element) and make an utterance implicate that (a) the element they assosiate with is the lowest element on some semantic scale, (b) the stronger alternatives of the utterance (i. e. containing elements higher on the abovementioned semantic scale) are false.</p>
+<p>English language has (at least) three particles of this kind coexisting within a language. However, one can notice that their distributional and semantic properties are somewhat different.</p>
 <table>
 <thead><tr>
 <th style="text-align:left">Particle</th>
@@ -14023,11 +14023,11 @@ a.anchor-link {
 </tr>
 </tbody>
 </table>
-<p>In Russian there are several restrictive scalar particles, as well: <em>только</em>, <em>лишь</em>, <em>всего</em>, <em>именно</em>.</p>
-<p>In this project I would like to have a look at these four particles and answer the following <strong>questions</strong>:</p>
+<p>In Russian there are several restrictive scalar particles, as well: 'только', 'лишь', 'всего', 'именно'.</p>
+<p>In this project I would like to have a look at these four particles and answer the following questions:</p>
 <ol>
 <li>Do they have some preferences with regard to their assosiate (POS, syntactic position).</li>
-<li>Some of these particles can combine with each other (<em>всего лишь</em>, <em>всего только</em>, <em>только лишь</em>). What combinations and orders are possible and how frequent they are?</li>
+<li>Some of these particles can combine with each other ('всего лишь', 'всего только', 'только лишь'). What combinations and orders are possible and how frequent they are?</li>
 <li>What preferences (see bullet 1) do combinations of these particles have? Do they inherit the properties of one of its parts or have completely different distribution?</li>
 </ol>
 
@@ -14047,7 +14047,7 @@ a.anchor-link {
  2.3. Enrich the data<br>
  2.4. Analyze the compatibility<br>
  2.5. Make conclusions</li>
-<li>Sum up and make final consclusions</li>
+<li>Sum everything up</li>
 </ol>
 
 </div>
@@ -14116,7 +14116,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I wanted to use multiple-worded queries with regular expressions. Generating URLs for such queries is somewhat complex for RNC, so I've decided to work with "ready-to-use" links. Basically, I got these by making relevant queries (see below) using RNC interface and copying URLs after the results are shown. I included some constraints on a preceding word and a following one to make sure I get instances of standalone particles and at the same time get as littele irrelevant instances as possible.</p>
+<p>I wanted to use multiple-worded queries with regular expressions. Generating URLs for such queries is somewhat complex for RNC, so I've decided to work with "ready-to-use" links. Basically, I got these by making relevant queries (see below) with RNC interface and copying URLs after the results are shown. I included some constraints on a preceding word and a following one to make sure: (a) I get instances of standalone particles, (b) I get as few irrelevant examples as possible.</p>
 <p>Here are the queries I used: <br>
 <code>lish_url</code> <br>
 word1: -(лишь|только|всего|именно) <br>
@@ -14135,9 +14135,9 @@ word1: -(а|лишь|только|всего|именно) <br>
 word2: именно <br>
 word3: -(лишь|только|всего|именно)</p>
 <hr>
-<p>* I included the constraint -comp for the first word to filter out examples with idiomatized constructions, such as 'больше всего', 'скорее всего', 'чаще всего' and others. For the same reason a preposition 'прежде' is added to the word1 group. However, I did't find a way to exclude another homonymous analysis, when 'всего' means 'in sum' like in a following sentence: "Кроме руководителей компаний, на форум приехали и представители госструктур, всего около 100 человек.". Nor did I manage to exclude 'всего' as form of the word 'весь' meaning 'whole' as in a sentence "Тут сидят представители фермеров со всего Львовского района."</p>
+<p>* I included the constraint -comp for the first word to filter out examples with idiomatized constructions, such as 'больше всего', 'скорее всего', 'чаще всего' and others. For the same reason a preposition 'прежде' is added to the word1 group. However, I did't find a way to exclude another homonymous analysis, when 'всего' means 'in sum' as in a following sentence: "Кроме руководителей компаний, на форум приехали и представители госструктур, всего около 100 человек.". Nor did I manage to exclude 'всего' as form of the word 'весь' meaning 'whole' as in a sentence "Тут сидят представители фермеров со всего Львовского района."</p>
 <p>** I added 'вот', 'пусть' and 'как' to word1 exclusion group to avoid examples, where 'только'  is used in some other functions which are not relevant for me now: 'вот только', 'пусть только (попробует)', 'как только'.</p>
-<p>*** I added 'а' to the word1 exclusion group to exclude examples, where 'именно' is used to further extend the some part of the utterance as in a sentence: "Чаще всего речь идёт о более тонких материях, а именно об общественном сознании и его феноменах". Unfortunally, this has ruled out some relevant examples as well, e.g. "На выходе необходим не скелет, нуждающийся в обязательной серьёзной литературной обработке, а именно текст."</p>
+<p>*** I added 'а' to the word1 exclusion group to avoid examples, where 'именно' is used to further extend the some part of the utterance as in a sentence: "Чаще всего речь идёт о более тонких материях, а именно об общественном сознании и его феноменах". Unfortunally, this has ruled out some relevant examples as well, e.g. "На выходе необходим не скелет, нуждающийся в обязательной серьёзной литературной обработке, а именно текст."</p>
 
 </div>
 </div>
@@ -14166,8 +14166,8 @@ word3: -(лишь|только|всего|именно)</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Now let's collect the data for each query.  I will collect 100 examples for each particle, hence 10 result pages.\
-Warning: scrapping takes some time.</p>
+<p>Now let's collect the data for each query.  I will collect 100 examples for each particle, hence 10 result pages. <br>
+! Warning: scrapping takes some time.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14342,26 +14342,21 @@ Warning: scrapping takes some time.</p>
 <h4 id="3.2.1.-Prior-experimentation">3.2.1. Prior experimentation<a class="anchor-link" href="#3.2.1.-Prior-experimentation">&#182;</a></h4><p>Typically, focus-sensitive particles in Russian are lineraly adjacent to their assosiates (partly, due to the relatively free word order in Russian). But this is not always the case. For instance, when assosiated with N, these particles linearly attach to the whole NP (i.e. to the modifiers of N). They also cannot penetrate PP, when assosiated with an N or an NP, embedded in it.</p>
 <p>Because of these peculiarities, we will try to determine an assosiate of a particle based on their syntactic dependencies (in the form that is employed in SpaCy), rather than count on linear order.</p>
 <p>Let's play with some examples and see if SpaCy gives us any meaningful results.</p>
-<hr>
-<p>(Moreover, in contrast to English, scalar particles in Russian can sometimes follow their assosiate as in a sentence "...")
-(Sometimes these particles assosiate with the whole syntactic phase. Such cases are more or less instinguishable from the cases where it assosiates only with some embedded part of the phrase. Thus, we will not discriminate between these two cases, and leave the controversial cases as they are.)</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[125]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ex_text_1</span> <span class="o">=</span> <span class="s2">&quot;«От себя» добавляю только мелко нарезанный укроп.&quot;</span> <span class="c1"># focus: whole NP or N</span>
-<span class="n">ex_text_2</span> <span class="o">=</span> <span class="s2">&quot;Оставалось только попросить его уйти.&quot;</span> <span class="c1"># focus: whole Infinitive phase</span>
-<span class="n">ex_text_3</span> <span class="o">=</span> <span class="s2">&quot;― В России всего восемь регионов, где финансовые дела обстоят относительно благополучно.&quot;</span> <span class="c1"># focus: NUM wihhin NP</span>
-<span class="n">ex_text_4</span> <span class="o">=</span> <span class="s2">&quot;так дурной вкус в искусстве радуется лишь эффектному орнаменту и не откликается на естественную красоту&quot;</span> <span class="c1"># focus: whole NP or Adj </span>
-<span class="n">ex_text_5</span> <span class="o">=</span> <span class="s1">&#39;Ты наносишь капельку только тонкой кисточкой.&#39;</span> <span class="c1"># focus: whole NP or Adj</span>
-<span class="n">ex_text_8</span> <span class="o">=</span> <span class="s1">&#39;Он только зашел укрыться от дождя.&#39;</span> <span class="c1"># focus: whole VP</span>
-<span class="n">ex_text_9</span> <span class="o">=</span> <span class="s1">&#39;Меня отпустили всего на несколько дней.&#39;</span> <span class="c1"># focus: PP or NUM within PP</span>
-
-<span class="n">ex_text_10</span> <span class="o">=</span> <span class="s1">&#39;можешь только ты.&#39;</span> <span class="c1"># focus: PP or NUM within PP</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ex_text_1</span> <span class="o">=</span> <span class="s2">&quot;«От себя» добавляю только мелко нарезанный укроп.&quot;</span> 
+<span class="n">ex_text_2</span> <span class="o">=</span> <span class="s2">&quot;Оставалось только попросить его уйти.&quot;</span> 
+<span class="n">ex_text_3</span> <span class="o">=</span> <span class="s2">&quot;― В России всего восемь регионов, где финансовые дела обстоят относительно благополучно.&quot;</span> 
+<span class="n">ex_text_4</span> <span class="o">=</span> <span class="s2">&quot;так дурной вкус в искусстве радуется лишь эффектному орнаменту и не откликается на естественную красоту&quot;</span>  
+<span class="n">ex_text_5</span> <span class="o">=</span> <span class="s1">&#39;Ты наносишь капельку только тонкой кисточкой.&#39;</span> 
+<span class="n">ex_text_6</span> <span class="o">=</span> <span class="s1">&#39;Он только зашел укрыться от дождя.&#39;</span> 
+<span class="n">ex_text_7</span> <span class="o">=</span> <span class="s1">&#39;Меня отпустили всего на несколько дней.&#39;</span> 
 </pre></div>
 
      </div>
@@ -14372,7 +14367,7 @@ Warning: scrapping takes some time.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[126]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">spacy</span>
@@ -14397,7 +14392,7 @@ an <code>assosiate_phrase</code> – a subtree of an immediate constituent or, i
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_modifier</span><span class="p">(</span><span class="n">tag</span><span class="p">):</span>
@@ -14466,7 +14461,7 @@ an <code>assosiate_phrase</code> – a subtree of an immediate constituent or, i
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[128]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_1</span><span class="p">,</span> <span class="s2">&quot;только&quot;</span><span class="p">))</span>
@@ -14474,8 +14469,8 @@ an <code>assosiate_phrase</code> – a subtree of an immediate constituent or, i
 <span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_3</span><span class="p">,</span> <span class="s2">&quot;всего&quot;</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_4</span><span class="p">,</span> <span class="s2">&quot;лишь&quot;</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_5</span><span class="p">,</span> <span class="s2">&quot;только&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_8</span><span class="p">,</span> <span class="s2">&quot;только&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_9</span><span class="p">,</span> <span class="s2">&quot;всего&quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_6</span><span class="p">,</span> <span class="s2">&quot;только&quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">collect_word_info</span><span class="p">(</span><span class="n">nlp_ru</span><span class="p">,</span> <span class="n">ex_text_7</span><span class="p">,</span> <span class="s2">&quot;всего&quot;</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -14513,7 +14508,7 @@ an <code>assosiate_phrase</code> – a subtree of an immediate constituent or, i
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We see that it works quite fine. If a particle attaches to the one-word constituent, we will see that its immediate head, higher head and assosiate phase will coinside.</p>
+<p>It works quite fine. If a particle attaches to the one-word constituent, we will see that its immediate head, higher head and assosiate phase will coinside.</p>
 <p>Unfortunately, there seems to be no way to determine  the size of a constituent a particle assosiates with (cf. 'всего восемь'). Also, some sentences are ambiguous in natural language, too. We will try to take into account different parameters, when we investigate frequencies.</p>
 
 </div>
@@ -15552,35 +15547,35 @@ Whereas "всего" and "лишь" seem to attach to some bigger constituents. 
 <h3 id="3.4.-Interim-summary">3.4. Interim summary<a class="anchor-link" href="#3.4.-Interim-summary">&#182;</a></h3><table>
 <thead><tr>
 <th style="text-align:left">particle</th>
-<th style="text-align:left">pos</th>
+<th style="text-align:left">POS preferrences</th>
 <th style="text-align:left">constituent size</th>
-<th style="text-align:left">dependency type</th>
+<th style="text-align:left">dependency type preferrences</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left">всего</td>
-<td style="text-align:left">NOUNs that are modified by NUMs; also frequent with PRONs</td>
+<td style="text-align:left">NOUNs that are modified by NUMs; PRONs</td>
 <td style="text-align:left">does not frequently attach to single-worded constituents</td>
-<td style="text-align:left">num modifiers of obl, nsubj and (to a lesser extent) obj</td>
+<td style="text-align:left">numeral modifiers of <strong>obl</strong>, <strong>nsubj</strong> and (to a lesser extent) <strong>obj</strong></td>
 </tr>
 <tr>
 <td style="text-align:left">только</td>
-<td style="text-align:left">compatibility is roughtly the same for immediate and higher heads; does not happily combine with verbs (less frequently than other particles)</td>
+<td style="text-align:left">NOUNs, NUMs, and PRONs; VERBs are infrequent (compared to other particles); compatibility is roughtly the same for immediate and higher heads</td>
 <td style="text-align:left">single-worded as well as larger consituents</td>
-<td style="text-align:left">conjunctions, obl</td>
+<td style="text-align:left"><strong>cc</strong> (conjuncts), <strong>obl</strong></td>
 </tr>
 <tr>
 <td style="text-align:left">лишь</td>
-<td style="text-align:left">more frequently than others combines with NOUNs and ADJs directly; quite frequent with VERBs.</td>
+<td style="text-align:left">very frequent with NOUNs (both in terms of immediate and higher heads); combines with ADJs more readily than other particles; quite frequent with VERBs.</td>
 <td style="text-align:left">does not frequently attach to single-worded constituents</td>
-<td style="text-align:left">obl; modifiers of obl, obj, nsubj</td>
+<td style="text-align:left"><strong>obl</strong>; modifiers of <strong>obl</strong>, <strong>obj</strong>, <strong>nsubj</strong></td>
 </tr>
 <tr>
 <td style="text-align:left">именно</td>
-<td style="text-align:left">Typically attaches to PRONs; probably frequently occur on a clause boundary (SYM); VERBs are more frequent than with other particles</td>
+<td style="text-align:left">Mostly, PRONs; probably, frequently occur on a clause boundary (SYM); VERBs are more frequent than with other particles</td>
 <td style="text-align:left">single-worded as well as larger consituents</td>
-<td style="text-align:left">tend to combine with obl; more frequent than others with subjects; det</td>
+<td style="text-align:left">tend to combine with <strong>obl</strong>; more frequent than others with <strong>nsubj</strong>; <strong>det</strong></td>
 </tr>
 </tbody>
 </table>

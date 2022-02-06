@@ -1,0 +1,101 @@
+token,dep_type,pos,immediate_head_text,immediate_head_pos,immediate_head_dep_type,higher_head_text,higher_head_pos,higher_head_dep_type,assosiate_phrase,assosiate_phrase_n
+всего,advmod,PART,два,NUM,obj,два,NUM,obj,два : убивает Клауса и огревает бутылкой по голове Холтоффа,10.0
+всего,advmod,PART,1,NUM,nummod,пятёрка,NOUN,conj,и 1 пятёрка,3.0
+всего,fixed,PART,те,DET,nsubj,те,DET,nsubj,"те , кто считают , что они любят грузинскую музыку , они и слышали - то",16.0
+всего,advmod,PART,170,NUM,nummod,случаев,NOUN,obj,170 случаев кори,3.0
+всего,advmod,PART,человек,NOUN,conj,человек,NOUN,conj,", около 100 человек",4.0
+всего,advmod,PART,два,NUM,nummod:gov,разработчика,NOUN,nsubj,два разработчика,2.0
+всего,advmod,PART,градусов,NOUN,nmod,нагрев,NOUN,nsubj,нагрев около 100 градусов,4.0
+всего,advmod,PART,остатков,NOUN,nmod,длиной,NOUN,orphan,― длиной 20 - 25 нуклеотидных остатков ( молекулярный вес около 6000 - 7000 ),15.0
+всего,advmod,PART,1,NUM,nummod,расстояния,NOUN,obl,", на расстояния 1 m от фронта первичной ударной волны при относительно небольших значениях температуры за фронтом(~ 1100 K",19.0
+всего,advmod,PART,0,NUM,nummod,%,SYM,obj,"0 , 6 %",4.0
+всего,advmod,PRON,треть,NOUN,nsubj,треть,NOUN,nsubj,треть,1.0
+всего,advmod,ADV,г,NOUN,obl,г,NOUN,obl,в 2003 г .,4.0
+всего,advmod,PART,46,NUM,nummod,Душек,PROPN,obj,46 Душек,2.0
+всего,advmod,PART,несколько,NUM,nummod:gov,минут,NOUN,nsubj,несколько минут,2.0
+всего,advmod,PART,одной,NUM,nummod,клавиши,NOUN,obl,при помощи одной клавиши,4.0
+всего,advmod,PART,34,NUM,nummod,млн,NOUN,parataxis,"― 34 , 9 млн",5.0
+всего,advmod,PART,семь,NUM,nummod:gov,лет,NOUN,parataxis,― ему семь лет,4.0
+всего,advmod,PART,1,NUM,nummod,%,SYM,nsubj,1 %,2.0
+всего,advmod,PART,полтора,NUM,acl:relcl,братом,NOUN,obl,"с младшим братом , которому полтора",6.0
+всего,advmod,PART,1,NUM,appos,Lifebook,X,nsubj,"Lifebook P 7010 1 , 3",6.0
+всего,advmod,PART,один,NUM,nummod,фильм,NOUN,nsubj,"один фильм , где любовные перипетии происходили между цветными ― "" Прыгни завтра """,14.0
+всего,advmod,PART,три,NUM,nummod:gov,часа,NOUN,obl,три часа,2.0
+всего,advmod,PART,полстолетия,NOUN,obl,полстолетия,NOUN,obl,за полстолетия,2.0
+всего,obl,PRON,скорее,ADV,parataxis,скорее,ADV,parataxis,", скорее ,",3.0
+всего,advmod,PART,12,NUM,nummod,составляя,VERB,advcl,", составляя ( по разным данным ) от 12 до 20 процентов",12.0
+всего,advmod,PART,30,NUM,nummod,рублей,NOUN,obj,30 рублей,2.0
+всего,advmod,PART,6,NUM,nummod,человек,NOUN,obj,"6 , 9 млн человек",5.0
+всего,advmod,PART,процента,NOUN,obj,процента,NOUN,obj,"2 , 7 процента голосов",5.0
+всего,advmod,PART,четыре,NUM,nummod:gov,размерности,NOUN,obj,"четыре размерности : пространство ( длина , ширина , высота ) и время """,14.0
+всего,advmod,PART,двадцать,NUM,nummod:gov,взрывов,NOUN,nsubj,двадцать семь взрывов ― не больше трехсот - четырехсот убитых в Москве и других городах,15.0
+всего,advmod,PART,одна,DET,nsubj,одна,DET,nsubj,одна,1.0
+всего,advmod,PART,два,NUM,conj,два,NUM,conj,", а у пигмейного морского конька их два",8.0
+всего,advmod,PART,4,NUM,nummod:gov,формы,NOUN,nsubj,4 формы региональных интеграционных объединений,5.0
+всего,advmod,PART,часов,NOUN,conj,часов,NOUN,conj,", а 40 - 120 часов",6.0
+всего,advmod,PART,пятнадцать,VERB,xcomp,пятнадцать,VERB,xcomp,пятнадцать с половиной шагов,4.0
+всего,advmod,PART,5,NUM,nummod,часов,NOUN,parataxis,"( в среднем , 5 часов )",7.0
+всего,advmod,PART,недели,NOUN,obl,недели,NOUN,obl,"около недели , да и то путём постоянных битв",9.0
+всего,advmod,PART,лет,NOUN,obl,лет,NOUN,obl,"А через сто миллионов лет , в ордовикском периоде ,",10.0
+всего,advmod,PART,одно,NUM,nummod,растеньице,NOUN,obj,"даже одно маленькое растеньице колокольчика , выросшее в щели",9.0
+всего,advmod,PART,1000,NUM,nummod,грузоподъёмность,NOUN,nsubj,грузоподъёмность 1000 кг ― пожалуйста,5.0
+всего,advmod,PART,месяц,NOUN,ccomp,месяц,NOUN,ccomp,", что отведённый срок ― месяц на рассылку и раздумья",10.0
+всего,advmod,PART,две,NUM,nummod:gov,недели,NOUN,ROOT,две,1.0
+всего,advmod,PART,восемь,NUM,nummod:gov,регионов,NOUN,nsubj,"восемь регионов , где финансовые дела обстоят относительно благополучно",9.0
+всего,advmod,PART,деприватизацию,NOUN,parataxis,деприватизацию,NOUN,parataxis,": за деприватизацию 77 % опрошенных , в категории молодёжи до 24 лет ― 63 %",16.0
+всего,advmod,PART,три,NUM,nummod:gov,чтения,NOUN,nsubj,три чтения,2.0
+всего,advmod,PART,два,NUM,nummod:gov,протонов,NOUN,conj,", а протонов в её молекуле два",7.0
+всего,advmod,PART,4,NUM,nummod:gov,млн,NOUN,nsubj:pass,"4 , 5 млн",4.0
+всего,advmod,PART,регионах,NOUN,nmod,картина,NOUN,ROOT,регионах,1.0
+всего,advmod,PART,четыре,NUM,nummod:gov,разработки,NOUN,nsubj,четыре разработки,2.0
+всего,advmod,PART,один,NUM,ROOT,один,NUM,ROOT,один,1.0
+всего,advmod,ADV,%,SYM,parataxis,%,SYM,parataxis,"( сейчас , после вступления в ВТО "" "" 80 % )",12.0
+всего,advmod,PART,50,NUM,nummod,Вт/,NOUN,obl,50 Вт/,2.0
+всего,advmod,PART,градусов,NOUN,obl,градусов,NOUN,obl,было на несколько градусов,4.0
+всего,advmod,PART,третий,ADJ,amod,день,NOUN,obj,третий день,2.0
+всего,advmod,PART,одной,NUM,nummod,головой,NOUN,conj,и одной головой,3.0
+всего,advmod,PART,процента,NOUN,obl,процента,NOUN,obl,"на 3 , 8 процента",5.0
+всего,advmod,PART,тысяч,NOUN,obl,тысяч,NOUN,obl,за десять тысяч,3.0
+всего,advmod,PART,таковых,ADJ,obl,таковых,ADJ,obl,таковых,1.0
+всего,advmod,PART,3,NUM,nummod:gov,степени,NOUN,nsubj:pass,"3 степени опьянения ( кроме перечисленных , ещё и лёгкая ) , милиционеры , тонко чувствующие потребности сограждан ,",19.0
+всего,advmod,PART,полгода,NOUN,obl,полгода,NOUN,obl,полгода спустя,2.0
+всего,advmod,PART,четыре,NUM,nummod:gov,раза,NOUN,obl,четыре раза,2.0
+всего,advmod,PART,124,NUM,nummod,Вальпараисо,PROPN,parataxis,: от Вальпараисо до Сантьяго 124 километра,7.0
+всего,advmod,PART,доллара,NOUN,obl,доллара,NOUN,obl,"в 1 , 3 доллара",5.0
+всего,advmod,PART,раза,NOUN,obl,раза,NOUN,obl,"в 2 , 4 раза",5.0
+всего,advmod,PART,4,NUM,nummod:gov,статьи,NOUN,ROOT,4,1.0
+всего,advmod,PART,двумя,NUM,nummod,позициями,NOUN,obl,"двумя позициями в группировках "" Строительство "" и "" Прочая научно - техническая информация """,15.0
+всего,obl,PRON,скорее,ADV,parataxis,скорее,ADV,parataxis,скорее,1.0
+всего,advmod,PART,12,NUM,nummod,пар,NOUN,ROOT,12,1.0
+всего,advmod,PART,9,NUM,nummod,штук,NOUN,nsubj:pass,9 штук,2.0
+всего,advmod,PART,0,NUM,nummod,километра,NOUN,obj,"0 , 44 квадратного километра",5.0
+всего,advmod,PART,несколько,NUM,nummod:gov,лет,NOUN,obl,несколько лет,2.0
+всего,advmod,PART,два,NUM,nummod:gov,раза,NOUN,obl,два раза,2.0
+всего,det,DET,дел,NOUN,conj,дел,NOUN,conj,и дел,2.0
+всего,advmod,PART,три,NUM,nummod:gov,раза,NOUN,obl,три раза в жизни,4.0
+всего,advmod,PART,86,NUM,nsubj,86,NUM,nsubj,86,1.0
+всего,advmod,PART,миллионов,NOUN,nummod,лет,NOUN,obj,500 миллионов лет,3.0
+всего,advmod,PART,дней,NOUN,obl,дней,NOUN,obl,в несколько дней,3.0
+всего,advmod,PART,мс,PROPN,obl,мс,PROPN,obl,на 50 - 90 мс при задержке,7.0
+всего,advmod,PART,0,NUM,appos,размер,NOUN,nsubj,"размер каждой порции катализатора ― 0 , 8",8.0
+всего,advmod,PART,один,NUM,nsubj,один,NUM,nsubj,один в сумме,3.0
+всего,advmod,PART,долларов,NOUN,ROOT,долларов,NOUN,ROOT,долларов,1.0
+всего,advmod,PART,2,NUM,nummod:gov,года,NOUN,obl,2 года,2.0
+всего,advmod,PART,%,SYM,obl,%,SYM,obl,"на 0 , 1 % , то есть практически в пределах допустимой ошибки",13.0
+всего,advmod,PART,лет,NOUN,obl,лет,NOUN,obl,через несколько миллиардов лет,4.0
+всего,advmod,PART,четыре,NUM,nummod:gov,винта,NOUN,obj,четыре винта,2.0
+всего,advmod,PRON,размечено,VERB,parataxis,размечено,VERB,parataxis,( там до 180 размечено ),6.0
+всего,advmod,PART,девятью,NOUN,parataxis,девятью,NOUN,parataxis,― девятью и девятью с половиной годами неволи,8.0
+всего,advmod,ADV,выделено,VERB,ROOT,выделено,VERB,ROOT,выделено,1.0
+всего,advmod,PART,долларов,NOUN,obj,долларов,NOUN,obj,около 10 долларов за час,5.0
+всего,advmod,PART,17,NUM,nummod,секунд,NOUN,obl,17 секунд,2.0
+всего,advmod,PART,три,NUM,nummod:gov,комнаты,NOUN,parataxis,"― три комнаты , и две из них смежные",9.0
+всего,advmod,PART,145,NUM,nummod,руб,NOUN,conj,― а 145 руб,4.0
+всего,advmod,PART,48,NUM,nummod,человек,NOUN,nsubj,"48 человек ( "" Яблоко "" и СПС )",9.0
+всего,advmod,PART,1,NUM,nummod,Рост,NOUN,nsubj,"Рост самой Юхсии ― 1 , 53",7.0
+всего,nsubj:pass,PROPN,продано,VERB,parataxis,продано,VERB,parataxis,"― в Зеленограде продано ВСЕГО три из двенадцати предложенных площадей , другие восхищаются ― ЦЕЛЫХ три",16.0
+всего,advmod,PART,20,NUM,nummod,составил,VERB,ROOT,20,1.0
+всего,advmod,PART,полгода,NOUN,conj,полгода,NOUN,conj,", а срок хранения ― полгода",6.0
+всего,advmod,PART,две,NUM,nummod:gov,недели,NOUN,nsubj,две недели,2.0
+всего,advmod,PART,один,NUM,nummod,матч,NOUN,obj,один матч из шести,4.0
+всего,advmod,ADV,центра,NOUN,obl,центра,NOUN,obl,из Театрального центра,3.0

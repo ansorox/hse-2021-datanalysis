@@ -1,0 +1,101 @@
+token,dep_type,pos,immediate_head_text,immediate_head_pos,immediate_head_dep_type,higher_head_text,higher_head_pos,higher_head_dep_type,assosiate_phrase,assosiate_phrase_n
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,заправки,NOUN,obl,заправки,NOUN,obl,после заправки,2.0
+только,advmod,PART,тогда,ADV,advmod,Kachora,PROPN,ROOT,тогда,1.0
+только,advmod,PART,%,SYM,obl,%,SYM,obl,"на 30 % , а не на все 100",9.0
+только,advmod,PART,слезы,NOUN,nsubj,слезы,NOUN,nsubj,слезы,1.0
+только,advmod,PART,те,DET,det,те,DET,det,те,1.0
+только,advmod,PART,очень,ADV,advmod,парень,NOUN,conj,", а простой рабочий парень ( коих и в наши дни достаточно ) , очень уж приземленный",17.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,вороной,ADJ,amod,конь,NOUN,conj,вороной конь,2.0
+только,advmod,PART,этого,PRON,obl,этого,PRON,obl,для этого,2.0
+только,advmod,PART,один,NUM,nummod,раз,NOUN,obl,один раз,2.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,такой,DET,det,такой,DET,det,такой,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,паре,NOUN,obl,паре,NOUN,obl,к четвертой паре,3.0
+только,advmod,PART,позитивно,ADV,advmod,Смотрю,PROPN,ROOT,позитивно,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,одному,NUM,nummod,человеку,NOUN,iobj,одному человеку,2.0
+только,advmod,PART,позавчера,ADV,advmod,решил,VERB,ROOT,позавчера,1.0
+только,advmod,PART,тебя,PRON,obl,тебя,PRON,obl,от тебя и от никого больше,6.0
+только,advmod,PART,олений,ADJ,amod,язык,NOUN,nsubj,на копчёный олений язык,4.0
+только,advmod,PART,надо,ADV,conj,надо,ADV,conj,"; надо , чтоб он был не ощипан , как голубь , а ободран , как кролик ”",18.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,подмножества,NOUN,obl,подмножества,NOUN,obl,для специально выделенного подмножества языка,5.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,ГВП,PROPN,obl,ГВП,PROPN,obl,в ГВП,2.0
+только,advmod,PART,мозг,NOUN,conj,мозг,NOUN,conj,", а ― мой мозг",5.0
+только,advmod,PART,одно,NUM,nummod,издание,NOUN,nsubj,"одно издание на русском языке , посвящённое этой теме",9.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,повышенным,VERB,amod,расходом,NOUN,obl,повышенным расходом его в образующиеся ЦИК,6.0
+только,advmod,PART,прибавила,VERB,conj,прибавила,VERB,conj,", прибавила шагу",3.0
+только,advmod,PART,типа,NOUN,nmod,функция,NOUN,nsubj,"функция от типа встречи R ( исхода , в том числе и фатальности )",14.0
+только,advmod,PART,нужную,ADJ,amod,информацию,NOUN,obj,нужную ему информацию,3.0
+только,advmod,PART,случае,NOUN,obl,случае,NOUN,obl,"в том случае , если существует прямая угроза правам и свободам граждан",12.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,увеличит,VERB,ccomp,увеличит,VERB,ccomp,"то внедрение центра телефонного обслуживания , да с интеллектуальным роботом в придачу , увеличит стоимость обслуживания",16.0
+только,advmod,PART,64-разрядные,ADJ,amod,RISC,PROPN,nsubj,64-разрядные RISC,2.0
+только,advmod,PART,участкам,NOUN,obl,участкам,NOUN,obl,по отдельным участкам магистрали,4.0
+только,advmod,PART,выпускает,VERB,ROOT,выпускает,VERB,ROOT,выпускает,1.0
+только,advmod,PART,последнюю,ADJ,amod,версию,NOUN,obj,последнюю версию,2.0
+только,advmod,PART,тот,DET,nsubj,тот,DET,nsubj,"тот , кто находится в горниле бизнеса",7.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,путях,NOUN,obl,путях,NOUN,obl,"на путях дальнейшей интеграции России в мировую экономику и продолжения многовекторной политики , направленной на развитие взаимовыгодных связей с соседями по СНГ , Европейским союзом , США , Китаем , Индией , Японией , странами Азии , Латинской Америки и других регионов",42.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,значение,NOUN,nsubj,значение,NOUN,nsubj,"значение интерполированного разрешения , которое равно 9600 т/ дюйм",9.0
+только,advmod,PART,случае,NOUN,obl,случае,NOUN,obl,"в случае , если силовые элементы являются балками",8.0
+только,advmod,PART,попросить,VERB,csubj,попросить,VERB,csubj,попросить его уйти,3.0
+только,advmod,PART,сделав,VERB,advcl,сделав,VERB,advcl,", сделав уроки и все домашние дела , что вдобавок ко всему будет гулять с собакой",16.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,это,PRON,nsubj,это,PRON,nsubj,это,1.0
+только,advmod,PART,десятилетие,NOUN,obl,десятилетие,NOUN,obl,в последнее десятилетие,3.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,начали,VERB,ROOT,начали,VERB,ROOT,начали,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,5,NUM,nummod,%,SYM,obj,5 % респондентов,3.0
+только,advmod,PART,обнаружения,NOUN,acl,тем,PRON,ROOT,обнаружения,1.0
+только,advmod,PART,фазе,NOUN,obl,фазе,NOUN,obl,на финальной фазе,3.0
+только,advmod,PART,рамках,NOUN,obl,рамках,NOUN,obl,в рамках дисциплинарного производства в соответствии с Кодексом этики,9.0
+только,advmod,PART,случаях,NOUN,obl,случаях,NOUN,obl,"в случаях , предусмотренных законом",5.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,ограниченно,ADV,advmod,может,VERB,ccomp,", что концепция затрат труда ограниченно может объяснять цену товаров , находящихся на "" вторичном рынке "" , и те случаи , когда цена с каждой новой продажей уменьшается",29.0
+только,advmod,PART,рваная,ADJ,amod,майка,NOUN,nsubj,"рваная сетчатая майка , сквозь которую видны густые волосы , покрывающие , как у обезьяны , всё его тело",19.0
+только,advmod,PART,поддержке,NOUN,obl,поддержке,NOUN,obl,благодаря поддержке кинокомпании Вайнштейна Miramax,5.0
+только,advmod,PART,Samsung,PROPN,obl,Samsung,PROPN,obl,у Samsung,2.0
+только,advmod,PART,компакт,NOUN,obl,компакт,NOUN,obl,на компакт,2.0
+только,advmod,PART,направлении,NOUN,obl,направлении,NOUN,obl,в одном направлении,3.0
+только,advmod,PART,один,NUM,nummod,человек,NOUN,nsubj:pass,один человек,2.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,теми,DET,det,теми,DET,det,"с теми , кто тебя тебя читает",7.0
+только,advmod,PART,название,NOUN,obj,название,NOUN,obj,название,1.0
+только,advmod,PART,лет,NOUN,obl,лет,NOUN,obl,до 30-ти лет,3.0
+только,advmod,PART,началась,VERB,ROOT,началась,VERB,ROOT,началась,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,много,ADV,advmod,хуже,ADJ,ROOT,много,1.0
+только,advmod,PART,запаха,NOUN,conj,запаха,NOUN,conj,", без дурацкого запаха вишнёвых косточек",6.0
+только,advmod,PART,потому,ADV,advmod,воспользоваться,VERB,csubj,"не воспользоваться им потому , что им не обладают другие люди",11.0
+только,advmod,PART,женщинах,NOUN,obl,женщинах,NOUN,obl,на двух женщинах в мире,5.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,сейчас,ADV,advmod,вышел,VERB,ROOT,сейчас,1.0
+только,advmod,PART,исследователей,NOUN,obl,исследователей,NOUN,obl,на исследователей,2.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,разработке,NOUN,obl,разработке,NOUN,obl,при его разработке,3.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,мог,VERB,acl:relcl,все,PRON,nsubj,"все , кто мог , звали в один крупный проект за другим",12.0
+только,fixed,PART,ещё,ADV,advmod,формируется,VERB,conj,", но как вид декоративно - прикладного искусства ещё формируется",10.0
+только,advmod,PART,направлении,NOUN,obl,направлении,NOUN,obl,на российском направлении,3.0
+только,fixed,PART,не,PART,cc,не,PART,cc,не,1.0
+только,advmod,PART,части,NOUN,obl,части,NOUN,obl,в расчётной части подключаемых алгоритмов ( рис . 3,9.0
+только,advmod,PART,этой,DET,det,этой,DET,det,этой,1.0

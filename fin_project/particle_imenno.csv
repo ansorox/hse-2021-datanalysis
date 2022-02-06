@@ -1,0 +1,101 @@
+token,dep_type,pos,immediate_head_text,immediate_head_pos,immediate_head_dep_type,higher_head_text,higher_head_pos,higher_head_dep_type,assosiate_phrase,assosiate_phrase_n
+именно,advmod,PART,так,ADV,advmod,воспринимаю,VERB,conj,", но себя в школе я так и воспринимаю",9.0
+именно,advmod,PART,так,ADV,advmod,говорят,VERB,conj,", но большинство знакомых говорят так",6.0
+именно,advmod,PART,сдельная,ADJ,amod,оплата,NOUN,cc,сдельная оплата труда,3.0
+именно,advmod,PART,топориком,NOUN,obl,топориком,NOUN,obl,с этим топориком,3.0
+именно,advmod,PART,методом,NOUN,obl,методом,NOUN,obl,― методом погружения,3.0
+именно,advmod,PART,ему,PRON,iobj,ему,PRON,iobj,ему,1.0
+именно,advmod,PART,этот,DET,det,этот,DET,det,этот,1.0
+именно,advmod,PART,ей,PRON,iobj,ей,PRON,iobj,ей,1.0
+именно,advmod,PART,стороны,NOUN,obl,стороны,NOUN,obl,с этой стороны,3.0
+именно,advmod,PART,фильме,NOUN,obl,фильме,NOUN,obl,о фильме,2.0
+именно,advmod,PART,поэтому,ADV,discourse,поэтому,ADV,discourse,поэтому,1.0
+именно,advmod,PART,тебя,PRON,obj,тебя,PRON,obj,тебя,1.0
+именно,advmod,PART,Что,PRON,obj,Что,PRON,obj,Что,1.0
+именно,advmod,PART,она,PRON,nsubj,она,PRON,nsubj,она,1.0
+именно,advmod,PART,кто,PRON,conj,кто,PRON,conj,и кто,2.0
+именно,advmod,PART,туда,ADV,advmod,хочешь,VERB,ccomp,", что хочешь туда",4.0
+именно,advmod,PART,услуги,NOUN,obj,услуги,NOUN,obj,"услуги """,2.0
+именно,advmod,PART,атака,NOUN,nsubj,атака,NOUN,nsubj,атака летальным штаммом ВЭ макрофагов,5.0
+именно,advmod,PART,этих,DET,det,этих,DET,det,этих,1.0
+именно,fixed,PART,хотя,SCONJ,mark,хотя,SCONJ,mark,"хотя на этом этапе , например , через решения Конституционного Суда РФ ,",13.0
+именно,advmod,PART,как,ADV,advmod,скажется,VERB,ccomp,", как на имидже компании скажется роботизированное телефонное обслуживание ― одним может понравиться высокотехнологичный банк , а других не устроит холодный официоз автомата",23.0
+именно,advmod,PART,ему,PRON,iobj,ему,PRON,iobj,ему,1.0
+именно,advmod,PART,день,NOUN,obl,день,NOUN,obl,в этот день,3.0
+именно,advmod,PART,параметры,NOUN,obj,параметры,NOUN,obj,"в основном параметры элемента , для которого рассчитывается критерий",9.0
+именно,advmod,PART,хотела,VERB,ccomp,хотела,VERB,ccomp,", что хотела у него спросить",6.0
+именно,advmod,PART,ремёсла,VERB,ccomp,ремёсла,VERB,ccomp,", что ремёсла ― прекрасная основа для воспитания трудовых навыков и любви к труду",14.0
+именно,advmod,PART,какие,DET,det,какие,DET,det,какие,1.0
+именно,advmod,PART,молекула,NOUN,nsubj,молекула,NOUN,nsubj,молекула ДНК,2.0
+именно,advmod,PART,как,ADV,advmod,делать,VERB,ccomp,"Вот только , как это делать ,",7.0
+именно,advmod,PART,орфографией,NOUN,obl,орфографией,NOUN,obl,с такой орфографией,3.0
+именно,advmod,PART,составе,NOUN,obl,составе,NOUN,obl,в составе рентгеновских новых,4.0
+именно,advmod,PART,такая,DET,det,такая,DET,det,Именно такая,2.0
+именно,advmod,PART,силу,NOUN,obl,силу,NOUN,obl,в силу его динамичности,4.0
+именно,advmod,PART,кружевоплетение,NOUN,nsubj,кружевоплетение,NOUN,nsubj,кружевоплетение,1.0
+именно,advmod,PART,так,ADV,advmod,обстоит,VERB,ROOT,так,1.0
+именно,advmod,PART,этим,DET,det,этим,DET,det,этим,1.0
+именно,advmod,PART,эти,DET,det,эти,DET,det,эти,1.0
+именно,advmod,PART,бизнес,NOUN,nsubj,бизнес,NOUN,nsubj,бизнес,1.0
+именно,advmod,PART,возможности,NOUN,nsubj,возможности,NOUN,nsubj,возможности современных информационных технологий,4.0
+именно,advmod,PART,делать,VERB,parataxis,делать,VERB,parataxis,", что будем делать с этой историей",7.0
+именно,advmod,PART,ванне,NOUN,ROOT,ванне,NOUN,ROOT,ванне,1.0
+именно,advmod,PART,вопросом,NOUN,nmod,билет,NOUN,nsubj,"билет с этим вопросом , про Егора Булычова",8.0
+именно,advmod,PART,так,ADV,advmod,цифру,NOUN,obj,"каждую цифру , откуда что берётся и почему так",9.0
+именно,advmod,PART,сначала,ADV,advmod,думать,VERB,conj,", сначала думать в смысле размышлять ( больше делать было нечего )",12.0
+именно,advmod,PART,нём,PROPN,obl,нём,PROPN,obl,в нём,2.0
+именно,advmod,PART,переключения,NOUN,obj,переключения,NOUN,obj,"переключения ОТ "" работы "" ( того дела , что было проблематичным )",13.0
+именно,advmod,PART,каким,DET,det,каким,DET,det,", каким будет второй язык",5.0
+именно,advmod,PART,это,PRON,nsubj,это,PRON,nsubj,это,1.0
+именно,advmod,PART,стремление,NOUN,nsubj,стремление,NOUN,nsubj,стремление быть эффективным на своём рабочем месте,7.0
+именно,advmod,PART,тот,DET,det,тот,DET,det,тот,1.0
+именно,advmod,PART,так,ADV,advmod,виделся,VERB,conj,", и так ей виделся Серебряков ( Игорь Иванов )",10.0
+именно,advmod,PART,сочетании,NOUN,obl,сочетании,NOUN,obl,"на сочетании квадратов , треугольников и полосок путём нашивания их друг на друга",13.0
+именно,advmod,PART,это,PRON,nsubj,это,PRON,nsubj,это,1.0
+именно,advmod,PART,устранения,NOUN,obl,устранения,NOUN,obl,для их устранения,3.0
+именно,advmod,PART,здесь,ADV,advmod,осуществляется,VERB,advcl,", поскольку здесь осуществляется непосредственная работа с физическими и юридическими лицами ― субъектами территорий",14.0
+именно,advmod,PART,того,PRON,obl,того,PRON,obl,"для того , чтобы привлечь к себе мужские взгляды , ведь твой макияж и так безупречен",16.0
+именно,advmod,PART,баланса,NOUN,obl,баланса,NOUN,obl,для платёжного баланса России,4.0
+именно,advmod,PART,наличие,NOUN,nsubj,наличие,NOUN,nsubj,наличие этих двух областей,4.0
+именно,advmod,PART,времени,NOUN,obl,времени,NOUN,obl,Именно с этого времени,4.0
+именно,advmod,PART,публика,NOUN,conj,публика,NOUN,conj,публика,1.0
+именно,advmod,PART,Эльмар,PROPN,nsubj,Эльмар,PROPN,nsubj,Эльмар,1.0
+именно,advmod,PART,случае,NOUN,conj,случае,NOUN,conj,", но в случае необходимости",5.0
+именно,advmod,PART,встала,VERB,ROOT,встала,VERB,ROOT,встала,1.0
+именно,advmod,PART,осмысления,NOUN,obl,осмысления,NOUN,obl,для качественного теоретического осмысления полученных за последние полвека данных,9.0
+именно,advmod,PART,какую,DET,det,какую,DET,det,какую,1.0
+именно,advmod,PART,тема,NOUN,nsubj,тема,NOUN,nsubj,тема кризиса художника,3.0
+именно,advmod,PART,жизни,NOUN,nmod,Интерес,NOUN,nsubj:pass,Интерес к повседневной жизни столицы,5.0
+именно,advmod,PART,так,ADV,advmod,характеризуют,VERB,parataxis,― все характеризуют его так,5.0
+именно,advmod,PART,этих,DET,det,этих,DET,det,этих,1.0
+именно,advmod,PART,жюри,NOUN,obl,жюри,NOUN,obl,в жюри ( как называют ещё суд присяжных ),9.0
+именно,advmod,PART,сейчас,ADV,advmod,причём,ADV,conj,", причём сейчас",3.0
+именно,advmod,PART,вода,NOUN,nsubj,вода,NOUN,nsubj,вода,1.0
+именно,advmod,PART,им,PRON,iobj,им,PRON,iobj,им,1.0
+именно,advmod,PART,весной,NOUN,obl,весной,NOUN,obl,весной,1.0
+именно,advmod,PART,вызове,NOUN,obl,вызове,NOUN,obl,"в вызове , а не в создании дополнительных тепличных условий",10.0
+именно,advmod,PART,таким,DET,ROOT,таким,DET,ROOT,таким,1.0
+именно,advmod,PART,поддержку,NOUN,obl,поддержку,NOUN,obl,как поддержку,2.0
+именно,advmod,PART,этом,PRON,obl,этом,PRON,obl,Вот об этом,3.0
+именно,advmod,PART,одного,NUM,obl,одного,NUM,obl,"от одного из своих двойников , который узнал о трагедии первым",11.0
+именно,advmod,PART,Волошин,PROPN,nsubj,Волошин,PROPN,nsubj,Волошин,1.0
+именно,advmod,PART,году,NOUN,obl,году,NOUN,obl,в этом году,3.0
+именно,advmod,PART,эта,DET,det,эта,DET,det,эта,1.0
+именно,advmod,PART,тому,PRON,obl,тому,PRON,obl,К тому же,3.0
+именно,advmod,PART,глава,NOUN,nsubj,глава,NOUN,nsubj,глава президентской администрации Александр Волошин,5.0
+именно,advmod,PART,год,NOUN,obl,год,NOUN,obl,спустя год,2.0
+именно,advmod,PART,связи,NOUN,obl,связи,NOUN,obl,"Только вот в той связи , что олигархи ( даже когда это тайные олигархи из бизнес - корпораций силовиков ) ― залог нашего будущего ,",25.0
+именно,advmod,PART,такие,DET,det,такие,DET,det,такие,1.0
+именно,advmod,PART,российские,ADJ,amod,видеопираты,NOUN,nsubj,российские видеопираты,2.0
+именно,advmod,PART,принципу,NOUN,obl,принципу,NOUN,obl,"по упомянутому выше принципу экологичности , во - вторых , потому , что в них используются в основном дикорастущие виды растений , а "" дикари "" , как известно , гораздо выносливее и , соответственно , проще в уходе , чем их формы и декоративные "" родственники """,48.0
+именно,advmod,PART,это,PRON,nsubj,это,PRON,nsubj,это,1.0
+именно,advmod,PART,эта,DET,det,эта,DET,det,эта,1.0
+именно,advmod,PART,здесь,ADV,advmod,проведена,VERB,conj,", однако здесь была проведена одна из первых наступательных операций Красной Армии , спасшая весь Северо - Запад",18.0
+именно,advmod,PART,последние,ADJ,nsubj,последние,ADJ,nsubj,последние,1.0
+именно,advmod,PART,такому,DET,det,такому,DET,det,такому,1.0
+именно,advmod,PART,регионах,NOUN,obl,регионах,NOUN,obl,в этих одиннадцати регионах [ 7 ],7.0
+именно,advmod,PART,нелинейностью,NOUN,obl,нелинейностью,NOUN,obl,в связи с нелинейностью развития сложных систем,7.0
+именно,advmod,PART,наши,DET,det,наши,DET,det,наши,1.0
+именно,advmod,PART,журналах,NOUN,obl,журналах,NOUN,obl,в толстых литературных журналах ( и почти исключительно в них ),11.0
+именно,advmod,PART,здесь,ADV,advmod,окончит,VERB,ccomp,", что здесь окончит свои дни",6.0
+именно,advmod,PART,языке,NOUN,obl,языке,NOUN,obl,о русском языке,3.0
